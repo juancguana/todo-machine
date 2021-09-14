@@ -1,9 +1,9 @@
 import React from 'react';
 import './CreateTodoButton.css';
 
-const CreateTodoButton = () => {
-  const onClickButton = (msg) => {
-    alert(msg);
+const CreateTodoButton = ({ setOpenModal }) => {
+  const onClickButton = () => {
+    setOpenModal((openModal) => !openModal);
   };
 
   return (
