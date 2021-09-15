@@ -1,12 +1,15 @@
 import React from 'react';
 import { TodoContext } from '../TodoContext';
-import { TodoCounter } from '../TodoCounter';
-import { TodoSearch } from '../TodoSearch';
-import { TodoList } from '../TodoList';
-import { TodoItem } from '../TodoItem';
-import { CreateTodoButton } from '../CreateTodoButton';
-import { Modal } from '../Modal';
-import { TodoForm } from '../TodoForm';
+import { TodoCounter } from '../components/TodoCounter';
+import { TodoSearch } from '../components/TodoSearch';
+import { TodoList } from '../components/TodoList';
+import { TodoItem } from '../components/TodoItem';
+import { CreateTodoButton } from '../components/CreateTodoButton';
+import { Modal } from '../components/Modal';
+import { TodoForm } from '../components/TodoForm';
+import { TodoError } from '../components/TodoErrors';
+import { TodoLoading } from '../components/TodoLoading';
+import { EmptyTodos } from '../components/EmptyTodos';
 
 const AppUI = () => {
   const {
@@ -24,9 +27,9 @@ const AppUI = () => {
       <TodoCounter />
       <TodoSearch />
       <TodoList>
-        {error && <p>Hubo un error</p>}
-        {loading && <p>Cargando...</p>}
-        {!loading && !searchedTodos.length && <p>Crea tu primer to do</p>}
+        {error && <TodoError />}
+        {loading && <TodoLoading />}
+        {!loading && !searchedTodos.length && <EmptyTodos />}
 
         {searchedTodos.map((todo) => (
           <TodoItem
