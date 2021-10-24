@@ -11,7 +11,7 @@ import { TodoError } from '../components/TodoErrors';
 import { TodoLoading } from '../components/TodoLoading';
 import { EmptyTodos } from '../components/EmptyTodos';
 import { TodoHeader } from '../components/TodoHeader';
-import { ChangeAlertWithStorageListener } from '../components/ChangeAlert';
+import { ChangeAlert } from '../components/ChangeAlert';
 
 function App() {
   const {
@@ -76,7 +76,7 @@ function App() {
         </Modal>
       )}
       <CreateTodoButton setOpenModal={setOpenModal} />
-      <ChangeAlertWithStorageListener sincronize={sincronizeTodos} />
+      <ChangeAlert sincronize={sincronizeTodos} />
     </>
   );
 }
