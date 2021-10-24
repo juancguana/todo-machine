@@ -33,7 +33,7 @@ const TodoForm = ({ addTodo, setOpenModal }) => {
         >
           Cancelar
         </button>
-        <button type='submit' className='TodoForm-button TodoForm-button-add'>
+        <button type='submit' className='TodoForm-button TodoForm-button--add'>
           Añadir
         </button>
       </div>

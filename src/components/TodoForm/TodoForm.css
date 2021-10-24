@@ -60,7 +60,7 @@ textarea:focus {
   font-family: 'Montserrat';
 }
 
-.TodoForm-button-add {
+.TodoForm-button--add {
   background-color: #61DAFA;
   box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
 }

@@ -11,6 +11,7 @@ import { TodoError } from '../components/TodoErrors';
 import { TodoLoading } from '../components/TodoLoading';
 import { EmptyTodos } from '../components/EmptyTodos';
 import { TodoHeader } from '../components/TodoHeader';
+import { ChangeAlertWithStorageListener } from '../components/ChangeAlert';
 
 function App() {
   const {
@@ -26,19 +27,14 @@ function App() {
     searchValue,
     setSearchValue,
     addTodo,
+    sincronizeTodos,
   } = useTodos();
 
   return (
-    <React.Fragment>
+    <>
       <TodoHeader loading={loading}>
-        <TodoCounter
-          totalTodos={totalTodos}
-          completedTodos={completedTodos}
-        />
-        <TodoSearch
-          searchValue={searchValue}
-          setSearchValue={setSearchValue}
-        />
+        <TodoCounter totalTodos={totalTodos} completedTodos={completedTodos} />
+        <TodoSearch searchValue={searchValue} setSearchValue={setSearchValue} />
       </TodoHeader>
 
       <TodoList
@@ -80,7 +76,8 @@ function App() {
         </Modal>
       )}
       <CreateTodoButton setOpenModal={setOpenModal} />
-    </React.Fragment>
+      <ChangeAlertWithStorageListener sincronize={sincronizeTodos} />
+    </>
   );
 }
 
