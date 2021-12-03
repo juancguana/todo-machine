@@ -1,70 +1,221 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Website][website-shield]][website-url]
+[![MIT License][license-shield]][license-url]
+[![Author][author-shield]][author-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Twitter][twitter-shield]][twitter-url]
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/juancguana/todo-machine">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">TO DO MACHINE</h3>
 
-### `yarn start`
+  <p align="center">
+    Add your to-do's to a list that will stay
+    with you.
+    <br />
+    <a href="https://github.com/juancguana/todo-machine"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://juancguana.github.io/todo-machine/">View Demo</a>
+    ·
+    <a href="https://github.com/juancguana/todo-machine/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/juancguana/todo-machine/issues">Request Feature</a>
+  </p>
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#feature">Feature</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation-steps">Installation Steps</a></li>
+      </ul>
+    </li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `yarn test`
+## 📌 About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project emulates a list of to-dos that are stored locally on the device you're using, you can create new to-dos, mark them as completed and delete them completely.
 
-### `yarn build`
+### 🚀 Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Product Name Screen Shot][product-screenshot]](https://juancguana.github.io/todo-machine/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Try the App: [juancguana.github.io/todo-machine](https://juancguana.github.io/todo-machine/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🧐 Features
 
-### `yarn eject`
+Let me share the outstanding features of Styler.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- 💯 **Live Preview**
+- 🍭 **Break Points Support** (mobile, tablet, desktop)
+- 💻 **Fully Responsive**
+- 📝 **Create your to-do's**
+- ✅ **Mark your completed to-do's as completed**
+- 🔎 **Search through all your to-do's**
+- ❌ **Delete your to-do's**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Manage your to-do's with To-Do-Machine! ✨️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 💻 Built With
 
-## Learn More
+- [React.js](https://reactjs.org/)
+- [GitHub Pages](https://pages.github.com/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- GETTING STARTED -->
 
-### Code Splitting
+## Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-### Making a Progressive Web App
+### 🛠️ Installation Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/saviomartin/styler.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Change the working directory
 
-### Deployment
+```bash
+cd styler
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Install dependencies
 
-### `yarn build` fails to minify
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Create `.env` file in root and add your variables
+
+```bash
+const API_KEY = 'ENTER YOUR API';
+```
+
+5. Run the app
+
+```bash
+npm run start
+```
+
+You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 🛡️ License
+
+This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## 👨🏻‍💻 Contact
+
+### 👤 Juan C. Guaña
+
+- Twitter: [@juancguana](https://twitter.com/juancguana)
+- Github: [@juancguana](https://github.com/juancguana)
+- Mail: [juanc.guana@gmail.com](mailto:juanc.guana@gmail.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+
+- [Choose an Open Source License](https://choosealicense.com)
+- [Img Shields](https://shields.io)
+- [GitHub Pages](https://pages.github.com)
+- [Window.localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/juancguana/todo-machine/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/juancguana/todo-machine/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/juancguana/todo-machine/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/juancguana/todo-machine/issues
+[product-screenshot]: public/screenshot.png
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/juancguana/todo-machine/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=twitter&colorB=F5F8FA
+[twitter-url]: https://linkedin.com/in/juancguana
+[website-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=for-the-badge&up_color=3de7f2&up_message=online&url=https%3A%2F%2Fshields.io
+[website-url]: https://www.juancguana.com/
+[author-shield]: https://img.shields.io/badge/AUTHOR-JUAN%20C.%20GUA%C3%91A-0b192b?style=for-the-badge
+[author-url]: https://www.freecodecamp.org/espanol/news/author/juancguana/
+
+---
+
+<h3 align="center">
+To-Do-Machine needs a ⭐️ from you
+</h3>
