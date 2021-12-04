@@ -30,32 +30,6 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#demo">Demo</a></li>
-        <li><a href="#feature">Feature</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation-steps">Installation Steps</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 <!-- ABOUT THE PROJECT -->
 
 ## 📌 About The Project
@@ -93,12 +67,12 @@ Manage your to-do's with To-Do-Machine! ✨️
 
 <!-- GETTING STARTED -->
 
-## Getting Started
+## 🏁 Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### ⚙️ Prerequisites
 
 - npm
   ```sh
@@ -143,7 +117,7 @@ You are all set! Open [localhost:3000](http://localhost:3000/) to see the app.
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -180,7 +154,7 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 
 <!-- ACKNOWLEDGMENTS -->
 
-## Acknowledgments
+## 📚 Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
@@ -204,9 +178,9 @@ Use this space to list resources you find helpful and would like to give credit 
 [issues-url]: https://github.com/juancguana/todo-machine/issues
 [product-screenshot]: public/screenshot.png
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/juancguana/todo-machine/blob/master/LICENSE.txt
+[license-url]: https://github.com/juancguana/todo-machine/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=2867B2
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://linkedin.com/in/juancguana
 [twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=twitter&colorB=F5F8FA
 [twitter-url]: https://linkedin.com/in/juancguana
 [website-shield]: https://img.shields.io/website?down_color=lightgrey&down_message=offline&style=for-the-badge&up_color=3de7f2&up_message=online&url=https%3A%2F%2Fshields.io
