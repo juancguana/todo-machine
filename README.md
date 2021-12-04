@@ -5,7 +5,6 @@
 [![Author][author-shield]][author-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
-[![React][react-shield]][react-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -188,8 +187,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [website-url]: https://www.juancguana.com/
 [author-shield]: https://img.shields.io/badge/AUTHOR-JUAN%20C.%20GUA%C3%91A-0b192b?style=for-the-badge
 [author-url]: https://www.freecodecamp.org/espanol/news/author/juancguana/
-[react-shield]: https://img.shields.io/badge/-ReactJs-61DAFB?logo=react&logoColor=white&style=for-the-badge
-[react-url]: https://reactjs.org/
 
 ---
 
