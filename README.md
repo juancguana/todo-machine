@@ -84,13 +84,13 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the repository
 
 ```bash
-git clone https://github.com/saviomartin/styler.git
+git clone https://github.com/juancguana/todo-machine.git
 ```
 
 2. Change the working directory
 
 ```bash
-cd styler
+cd todo-machine
 ```
 
 3. Install dependencies
